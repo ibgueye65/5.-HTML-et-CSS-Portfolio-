@@ -1,11 +1,26 @@
-body{
-	width: 70%;
-	margin-left: 50px;
-	line-height: 150%;
+/* Titre */
+.cl0{
+	color: #00a;	/* bleu */
+	position: fixed;
+	text-align: center;
 }
-h1{
-	color: #00a	/* bleu */
+
+/* largeur image 100% */
+.cl0 img{width: 100%}
+
+/* les autres paragraphes de body */
+.cl1{
+	width: 70%;			/* reduire la largeur de la zone d'affichage de 30% */
+	margin-left: 150px;	/* decalage vers la droite */
+	line-height: 150%;	/* Interligne 1.5 */
 }
+/* sous-titres */
 h2{
 	color: #00a
+}
+
+/* Mise en évidence des noms de commune cité et de école */
+.cl2{
+	color: #00a;
+	font-weight: 700	/* gras */
 }
